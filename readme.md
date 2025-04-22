@@ -19,6 +19,6 @@ cd Currency-Exchange
 python3 exchanger.py
 ```
 
-## Authors
+## Author
 
 - [@MyDiDev](https://www.github.com/MyDiDev)
