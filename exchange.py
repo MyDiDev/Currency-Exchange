@@ -30,11 +30,11 @@ def main() -> None:
         title()
 
         try:
-            budget_input = input("\033[34;1mMonto: \033[0m").strip()
-            rate_input = input("\033[34;1mRate: \033[0m").strip()
+            budget_input: str = input("\033[34;1mMonto: \033[0m").strip()
+            rate_input: str = input("\033[34;1mRate: \033[0m").strip()
             
-            budget = float(budget_input.replace(' ', '').replace(',', ''))
-            rate = float(rate_input.replace(' ', '').replace(',', ''))
+            budget: float = float(budget_input.replace(' ', '').replace(',', ''))
+            rate: float = float(rate_input.replace(' ', '').replace(',', ''))
             
             result: float = exchange_money(budget, rate)
 
