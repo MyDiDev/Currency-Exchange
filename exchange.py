@@ -30,7 +30,7 @@ def main() -> None:
         title()
 
         try:
-            budget_input: str = input("\033[34;1mMonto: \033[0m").strip()
+            budget_input: str = input("\033[34;1mAmount: \033[0m").strip()
             rate_input: str = input("\033[34;1mRate: \033[0m").strip()
             
             budget: float = float(budget_input.replace(' ', '').replace(',', ''))
